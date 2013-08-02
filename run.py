@@ -32,4 +32,4 @@ def hello_monkey():
 		resp.say("Sorry, MoPub is closed at this time. Please come back between the hours of 9 AM and 6 PM, Monday through Friday")
 
 if __name__ == "__main__":
-	app.run(host='0.0.0.0')
+	app.run(host='0.0.0.0',port=80)
